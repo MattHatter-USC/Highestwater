@@ -280,7 +280,6 @@ int main() {
 						break;
 					}
 					if ((lastheight >= points[maxv].y)||(((lastL.x == oldL.x)&&(lastR.x==oldR.x))&&((lastL.y == oldL.y)&&(lastR.y==oldR.y)))) { //if clearly out of bounds
-						cerr << "Fak";
 						break;
 					}
 					lastheight = lastR.y;
